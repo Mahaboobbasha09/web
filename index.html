@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            background-color: lightgrey;
+            width: 100vw;
+            height: 8vh;
+            position: fixed;
+            font-size: 30px;
+            top: 0%;
+            font-family: "Karma";
+        }
+        .child{
+            /*border: 2px solid black;*/
+            height: 90vh;
+            width: 95vw;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+            margin: 0px 80px;
+        }
+        .child1{
+            height: 90vh;
+            width: 95vw;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-evenly;
+            margin: 0px 80px;
+        }
+        .a1 h3,.a2 h3,.a3 h3,.a4 h3{
+            text-align: center;
+            font-family: "Karma", sans-serif;
+            font-size: 23px;
+            font-weight: 400;
+            margin: 10px 0;
+        }
+        .a1 p,.a2 p,.a3 p,.a4 p,.b1 p,.b2 p,.b3 p,.b4 p{
+            text-align: center;
+        }
+        .a1,.a2,.a3,.a4{
+            /*border: 2px solid blue;*/
+            width: 23vw;
+            height: 90vh;
+        }
+       .a1 img{
+        height: 60vh;
+        width:20vw;
+        padding: 5%;
+       }
+       .a2 img{
+        height: 60vh;
+        width:20vw;
+        padding: 5%;
+       }
+       .a3 img{
+        height: 60vh;
+        width:20vw;
+        padding: 5%;
+       }
+       .a4 img{
+        height: 60vh;
+        width:20vw;
+        padding: 5%;
+       }
+       .b1 img{
+        height: 60vh;
+        width:20vw;
+        padding: 5%;
+       }
+       .b2 img{
+        height: 60vh;
+        width:23vw;
+        padding: 5%;
+       }
+       .b3 img{
+        height: 60vh;
+        width:22vw;
+        padding: 5%;
+       }
+       .b4 img{
+        height: 60vh;
+        width:20vw;
+        padding: 5%;
+       }
+       .b1 h3,.b2 h3,.b3 h3,.b4 h3{
+        text-align: center;
+            font-family: "Karma", sans-serif;
+            font-size: 23px;
+            font-weight: 400;
+            margin: 10px 0;
+       }
+       .b2>p{
+        font-size: small;
+       }
+       .num{
+        text-align: center ;
+       }
+       .nu a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        padding: 20px;
+       }
+       .nu a:hover{
+        color: #fff !important;
+        background-color: #000 !important;
+        transition: all 1s;
+       }
+       .ab>h3{
+        padding: 32px;
+        text-align: center;
+        font-weight: 400;
+        font-family: "karma";
+       }
+       .ab>img{
+        height: 533;
+        width: 800;
+        padding-left: 25%;
+       }
+       .ch{
+        padding: 25%;
+        height: 50vh;
+        width: 60vw;
+        padding-top: 32px;
+        padding-bottom: 32px;
+       }
+       .ch h4{
+        font-weight: bolder;
+        text-align: center ;
+       }
+       .ch h6{
+        text-align: center;
+       }
+       .ch p{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+        <div><img src="img.png" alt="img" height="18px" width="18px"></div>
+        <div>My Food</div>
+        <div>Mail</div>
+    </nav><br><br><br><br><br><br>
+    <div class="child">
+        <div class="a1">
+            <img src="sandwich.jpg" alt="sandwitch">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="a2">
+            <img src="steak.jpg" alt="st">
+            <h3>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="a3">
+            <img src="cherries.jpg" alt="ch">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p>
+        </div>
+        <div class="a4">
+            <img src="wine.jpg" alt="wn">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <div class="child1">
+        <div class="b1">
+            <img src="popsicle.jpg" alt="pop">
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="b2">
+            <img src="salmon.jpg" alt="sal">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="b3">
+            <img src="sandwich.jpg" alt="sw">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        </div>
+        <div class="b4">
+            <img src="croissant.jpg" alt="cro">
+            <h3>Le French</h3>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <div class="num">
+        <div class="nu">
+            <a href="#"><<</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">>></a>
+        </div>
+    </div><br>
+    <hr id="about">
+    <div class="ab">
+        <h3>About Me, The Food Man</h3>
+        <br>
+        <img src="chef.jpg" alt="ch">
+        <div class="ch">
+            <h4>
+                <b>I am Who I Am!</b>
+            </h4>
+            <br>
+            <h6>
+                <i>With Passion For Real, Good Food</i>
+            </h6><br>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+    </div>
+</body>
+</html>
